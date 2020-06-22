@@ -28,6 +28,7 @@ export default class Pencil {
     this.length -= 1;
   }
 
+  // testing
   writeOnPaper(paper, textToWrite) {
     for (let i = 0; i < textToWrite.length; i++) {
       this.updatePencilDurability(textToWrite.charAt(i));
